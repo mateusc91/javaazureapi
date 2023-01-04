@@ -5,7 +5,6 @@ import java.util.List;
 
 @org.springframework.stereotype.Repository
 public class Repository {
-
     public List<String> getAllStudents() {
         List<String> students = new ArrayList<>();
         students.add("Victor");
